@@ -19,8 +19,12 @@ class VIndicator extends StatelessWidget {
         IndiBox(
           colors: Color(0xff007aff).withOpacity(0.6),
         ),
-        IndiBox(
-          colors: Color(0xff121212).withOpacity(0.6),
+        Tooltip(
+          message: 'Neutral',
+          textStyle: TextStyle(color: Colors.black),
+          child: IndiBox(
+            colors: Color(0xff121212).withOpacity(0.6),
+          ),
         ),
         IndiBox(
           colors: Color(0xffff2e50).withOpacity(0.6),

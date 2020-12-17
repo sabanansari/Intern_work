@@ -7,6 +7,9 @@ class TableThree extends StatelessWidget {
       children: [
         TableRow(children: [
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerLeft,
             child: Text(
               'S3',
               style: TextStyle(
@@ -16,6 +19,9 @@ class TableThree extends StatelessWidget {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerRight,
             child: Text(
               '456.87',
               style: TextStyle(
@@ -26,6 +32,9 @@ class TableThree extends StatelessWidget {
         ]),
         TableRow(children: [
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerLeft,
             child: Text(
               'S2',
               style: TextStyle(
@@ -35,6 +44,9 @@ class TableThree extends StatelessWidget {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerRight,
             child: Text(
               '456.87',
               style: TextStyle(
@@ -45,6 +57,9 @@ class TableThree extends StatelessWidget {
         ]),
         TableRow(children: [
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerLeft,
             child: Text(
               'S1',
               style: TextStyle(
@@ -54,6 +69,9 @@ class TableThree extends StatelessWidget {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerRight,
             child: Text(
               '456.87',
               style: TextStyle(
@@ -64,6 +82,9 @@ class TableThree extends StatelessWidget {
         ]),
         TableRow(children: [
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerLeft,
             child: Text(
               'PIVOT POINTS',
               style: TextStyle(
@@ -73,6 +94,9 @@ class TableThree extends StatelessWidget {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerRight,
             child: Text(
               '456.87',
               style: TextStyle(
@@ -83,6 +107,9 @@ class TableThree extends StatelessWidget {
         ]),
         TableRow(children: [
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerLeft,
             child: Text(
               'R1',
               style: TextStyle(
@@ -92,6 +119,9 @@ class TableThree extends StatelessWidget {
             ),
           ),
           Container(
+            padding: EdgeInsets.all(10.0),
+            height: 38.0,
+            alignment: Alignment.centerRight,
             child: Text(
               '456.87',
               style: TextStyle(
